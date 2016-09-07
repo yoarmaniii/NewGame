@@ -17,9 +17,14 @@ public class GameOne {
 		
 		System.out.println( "Would you like to play a game?");
 		System.out.println("Type Yes or No");
+		choice = input.nextLine();
+		
 
 		
 		while (choice.equals("Yes")); {
+			System.out.println( "Excellent! you are walking across a field and you encounter a fire breathing dragon!");
+			System.out.println( "What would you do?");
+			System.out.println( "Face the beast or Run away?");
 		}
 		
 		
