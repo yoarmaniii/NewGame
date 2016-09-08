@@ -24,14 +24,23 @@ public class GameOne {
 				}
 			System.out.println();
 			System.out.println("You are walking across a lovely desert field and you encounter one of Godzilla's children! He's hungry!! Uh OH!!");
-			System.out.println("What do you do?");
+			System.out.println("What do you do?" + "Face Him or Run Away?");
 			choice = user.nextLine();
 			
 			if(choice.equalsIgnoreCase("Face Him"))
 			{	System.out.println("You approach Godzilla's child! You see that he has __ heads");
-				System.out.println("How many heads does he have?");
+				System.out.println("How many heads does he have? Choose 1, 2, or 3");
 				choice = user.nextLine();
 				
+				String heads = choice;
+				switch(heads) {
+				case "1":
+					System.out.println("ll");
+					
+				
+				
+				
+				}
 			
 			}
 			else {
