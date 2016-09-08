@@ -1,40 +1,24 @@
 import java.util.Scanner;
 
 public class GameOne {
-
+		
 	public static void main(String[] args) {
-		
-		//Make a Scanner and declare variables
-		Scanner userInput = new Scanner (System.in);
-		String yourName;
-		boolean faceTheBeast = true;
-		boolean runAway = false;
-		String choice = "yes";
-		String choice2 = "no";
-		
-		
-		//Ask questions
-		
-		System.out.println( " Welcome!! What is your name? ");
-		yourName = userInput.nextLine();
+		System.out.println("Welcome! Who do I have the pleasure of speaking to today?");
+		Scanner user = new Scanner(System.in);
+		String userName;
+		String choice;
+		userName = user.nextLine();
 		System.out.println();
 		
-		System.out.println("Would you like to play a game" + " " + yourName + "?");
-		choice = userInput.nextLine();
-		if (userInput.equals("yes")){
-			
-			System.out.println("Excellent!! You are walking across a vast field and you encounter Godzilla's child!!");
-			System.out.println("What do you do" + " " + yourName);
-		}
+		System.out.println(userName + "," +" "+ "would you like to see your future?");	
+		choice = user.nextLine();
+		boolean userContinue = true;
 		
-		
-
-		
-			
-		}
-		
+			if(userContinue.equals("yes"))
+			{	System.out.println("Cool! Lets begin your Sci-Fi journey to the future!");
+				
+			}
 		
 		
 	}
-
-
+}
