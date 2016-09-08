@@ -13,11 +13,17 @@ public class GameOne {
 		System.out.println(userName + "," +" "+ "would you like to see your future?");	
 		choice = user.nextLine();
 		boolean userContinue = true;
+	
 		
-			if(userContinue.equals("yes"))
+			if(choice.equals("yes"))
 			{	System.out.println("Cool! Lets begin your Sci-Fi journey to the future!");
 				
+			} 
+			else 
+			{ 	System.out.println( "We will see you when you are ready! Goodbye" +" " + userName + "!");
+				
 			}
+			
 		
 		
 	}
