@@ -26,7 +26,7 @@ public class GameOne {
 			
 			System.out.println();
 			System.out.println("You are walking across a lovely desert field and you encounter one of Godzilla's children! He's hungry!! Uh OH!!");
-			System.out.println("What do you do?" + "Face Him or Run Away?");
+			System.out.println("What do you do?" + " " + "Face Him or Run Away?");
 			choice = user.nextLine();
 			
 			if(choice.equalsIgnoreCase("Face Him"))
@@ -53,7 +53,7 @@ public class GameOne {
 						  System.out.println("Last part of your future is that you give him a name. What's his name");
 						  choice = user.nextLine();
 						  System.out.println("You named him" + choice);
-						  System.out.println(userName + "and" + choice);
+						  System.out.println(userName + " " + "and" + " " + choice + " " +  "How sweet are you two?!");
 						  System.out.println("They became great friends and went in search of their parents together!! THE END");
 						  break;
 					  }
@@ -81,7 +81,7 @@ public class GameOne {
 									  System.out.println("Last part of your future is that you give him a name. What's his name?");
 									  choice = user.nextLine();
 									  System.out.println("You named him" + " " + choice);
-									  System.out.println(userName + " "  + "and" + " " + choice);
+									  System.out.println(userName + " " + "and" + " " + choice + " " +  "How sweet are you two?!");
 									  System.out.println("They became great friends and went in search of their parents together!! THE END");
 									  break;
 					  }
@@ -108,7 +108,7 @@ public class GameOne {
 									  System.out.println("Last part of your future is that you give him a name. What's his name?");
 									  choice = user.nextLine();
 									  System.out.println("You named him" + " " + choice);
-									  System.out.println(userName + " "  + "and" + " " + choice);
+									  System.out.println(userName + " " + "and" + " " + choice + " " +  "How sweet are you two?!");
 									  System.out.println("They became great friends and went in search of their parents together!! THE END");
 									  break;
 			}
@@ -118,7 +118,7 @@ public class GameOne {
 					
 					
 									if(choice.equalsIgnoreCase("Run Away"))
-									System.out.println("You have left the fantasy game! Thanks for playing" + userName);
+									System.out.println("You have left the fantasy game! Thanks for playing" + " " + userName + "!");
 					 }
 			}
 			}	
